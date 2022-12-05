@@ -20,4 +20,5 @@ I am 35 years old lawyer, that wants to study web development. After 12 years of
 ```function solution(str){
     let strArray = str.split('').reverse().join('');
     return strArray;
-};```
+};
+```
