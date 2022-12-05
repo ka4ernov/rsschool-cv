@@ -14,10 +14,12 @@ I am 35 years old lawyer, that wants to study web development. After 12 years of
 * Git
 * VS-code
 ## Code examples:
-### Reversed Strings (JavaScript) - codewars task
-#### Description: Complete the solution so that it reverses the string passed into it.
+### Codewars task - Reversed Strings (JavaScript)
+#### Description: 
+Complete the solution so that it reverses the string passed into it.
 #### My solution:
-```function solution(str){
+```
+function solution(str){
     let strArray = str.split('').reverse().join('');
     return strArray;
 };
