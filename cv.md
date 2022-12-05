@@ -34,6 +34,10 @@ function solution(str){
     * **technology stack**: html, css, javascript
     * **link**: https://kchernov.ru/nalogovyj-kalkulyator/
 3. Mother capital calculator
-    * **description**: calculator helps to count the share that parents have to give to their children after using mother capital; developed for my personal site
+    * **description**: calculator helps to count the share of real estate that parents have to give to their children after using mother capital; developed for my personal site
     * **technology stack**: html, css, javascript
     * **link**: https://kchernov.ru/matcapcalc/
+## Education:
+Kuban State Agrarian University: jurisprudence of civil specialization
+## English:
+A2 (Pre-Intermediate)
