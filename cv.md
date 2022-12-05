@@ -24,3 +24,16 @@ function solution(str){
     return strArray;
 };
 ```
+## Experience:
+1. Marvel App
+    * **description**: educational project (udemy course), that using marvel api to show information about characters of marvel comic books
+    * **technology stack**: html, css, javascript, react
+    * **link**: https://github.com/ka4ernov/marvel
+2. Tax calculator
+    * **description**: calculator helps to count taxes when selling real estate; developed for my personal site
+    * **technology stack**: html, css, javascript
+    * **link**: https://kchernov.ru/nalogovyj-kalkulyator/
+3. Mother capital calculator
+    * **description**: calculator helps to count the share that parents have to give to their children after using mother capital; developed for my personal site
+    * **technology stack**: html, css, javascript
+    * **link**: https://kchernov.ru/matcapcalc/
