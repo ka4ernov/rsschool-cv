@@ -17,7 +17,7 @@ I am 35 years old lawyer, that wants to study web development. After 12 years of
 ### Reversed Strings (JavaScript) - codewars task
 #### Description: Complete the solution so that it reverses the string passed into it.
 #### My solution:
-`function solution(str){
+```function solution(str){
     let strArray = str.split('').reverse().join('');
     return strArray;
-};`
+};```
