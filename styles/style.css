@@ -62,9 +62,14 @@ a:hover {
 }
 .menu__list {
     display: flex;
-    gap: 20px;
     justify-content: flex-end;
     margin: 0;
+}
+.menu__item {
+    margin-right: 20px;
+}
+.menu__item:last-child {
+    margin-right: 0;
 }
 .menu__item:last-child > .menu__link {
     border-left: 1px solid white;
@@ -128,31 +133,36 @@ a:hover {
     height: 1px;
     background: rgba(255, 255, 255, 0.1);
 }
-.contacts__card, .socials__card, .languages__card {
+.socials__card, .languages__card {
     margin-top: 20px;
     display: flex;
-    gap: 10px;
     align-items: center;
+}
+.socials__card:first-child, .languages__card:first-child {
+    margin-top: 0;
 }
 .contacts__block {
     display: flex;
-    gap: 10px;
 }
 .contacts__icon-block {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 10px;
 }
 .contacts__info-list {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 20px;
     margin: 0;
 }
 .contacts__info-item {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
+}
+.contacts__info-item:first-child {
+    margin-top: 0;
 }
 .contacts__icon {
     width: 30px;
@@ -160,6 +170,10 @@ a:hover {
     padding: 5px;
     background: #2E2E48;
     border-radius: 100%;
+    margin-top: 20px;
+}
+.contacts__icon:first-child {
+    margin-top: 0;
 }
 .card__title {
     font-size: 14px;
@@ -168,7 +182,6 @@ a:hover {
 .contacts__info, .socials__info, .languages__info {
     display: flex;
     flex-direction: column;
-    margin-top: 3px;
 }
 .socials {
     margin-top: 25px;
@@ -176,6 +189,7 @@ a:hover {
 .socials__icon {
     width: 40px;
     height: 40px;
+    margin-right: 10px;
 }
 .socials::after {
     content: "";
@@ -191,6 +205,7 @@ a:hover {
 .languages__icon {
     width: 40px;
     height: 40px;
+    margin-right: 10px;
 }
 .right-block {
     padding: 32px 24px 24px 32px;
@@ -222,7 +237,9 @@ a:hover {
 .experience__main-info {
     display: flex;
     align-items: center;
-    gap: 10px;
+}
+.experience__icon{
+    margin-right: 10px;
 }
 .experience__img {
     width: 45px;
@@ -273,7 +290,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     width: 100px;
-    gap: 5px;
 }
 .theme__icon {
     width: 20px;
@@ -281,12 +297,15 @@ a:hover {
 }
 .theme__title {
     font-size: 12px;
+    margin-top: 5px;
 }
 .skills__cards-block {
     display: flex;
     align-items: center;
-    gap: 5px;
     margin: 0;
+}
+.skills__card {
+    margin-right: 5px;
 }
 .development>.cards-block>.skills__card {
     padding: 16px 8px;
@@ -319,15 +338,17 @@ a:hover {
 .education__cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
     margin: 0px 12px 0px 12px;
 }
 .education__card {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    margin-right: 10px;
     padding: 10px;
     background: #2E2E48;
+}
+.education__description {
+    margin-top: 10px;
 }
 .education__cards .education__card:first-child {
     border-radius: 4px 0px 0px 4px;
@@ -338,12 +359,12 @@ a:hover {
 .education__name {
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 .education__icon {
     width: 60px;
     height: 60px;
     border-radius: 100%;
+    margin-right: 10px;
 }
 .education__platform {
     font-size: 12px;
@@ -386,28 +407,33 @@ a:hover {
 .projects__cards {
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 .projects__card {
-    margin: 0px 12px 0px 12px;
+    margin: 20px 12px 0px 12px;
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    gap: 20px;
     background: #2E2E48;
     border-radius: 4px 4px 4px 4px;
+}
+.projects__card:first-child {
+    margin-top: 0;
 }
 .projects__icon {
     width: 40px;
     height: 40px;
+    margin-right: 20px;
 }
 .projects__description {
     color: #ACB1C3;
+    margin-top: 10px;
+}
+.projects__link {
+    margin-top: 10px;
 }
 .projects__info {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 .right-block__tools {
     margin-top: 40px;
@@ -424,10 +450,12 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
     padding: 15px;
     background: #2E2E48;
     border-radius: 4px 4px 4px 4px;
+}
+.tools__name, .tools__description {
+    margin-top: 5px;
 }
 .tools__icon {
     width: 40px;
@@ -516,11 +544,11 @@ a:hover {
         margin-left: 0;
         margin-right: 0;
     }
-    .tools__cards {
-        gap: 10px;
-    }
     .tools__card {
         margin-left: 0;
+        margin-right: 10px;
+    }
+    .tools__card:last-child {
         margin-right: 0;
     }
 }
@@ -530,8 +558,8 @@ a:hover {
     .languages__icon {
         display: none;
     }
-    .contacts__block {
-        gap: 0;
+    .contacts__icon-block {
+        margin-right: 0;
     }
     .skills__cards-block {
         font-size: 13px;
@@ -553,8 +581,8 @@ a:hover {
     .languages__icon {
         display: block;
     }
-    .contacts__block {
-        gap: 10px;
+    .contacts__icon-block {
+        margin-right: 10px;
     }
     .skills__info {
         display: none;
