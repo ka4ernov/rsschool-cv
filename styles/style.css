@@ -562,6 +562,9 @@ a:hover {
         margin-right: 0;
     }
     .skills__cards-block {
+        font-size: 12px;
+    }
+    .example__code-block {
         font-size: 13px;
     }
 }
@@ -590,11 +593,49 @@ a:hover {
     .education__cards {
         grid-template-columns: 1fr;
     }
+    .education__card {
+        margin-top: 10px;
+        margin-right: 0;
+    }
+    .education__card:first-child {
+        margin-top: 0;
+    }
     pre {
         font-size: 12px;
     }
     .tools__cards {
         grid-template-columns: 1fr;
+    }
+    .tools__card {
+        margin-top: 10px;
+        margin-right: 0;
+    }
+    .tools__card:first-child {
+        margin-top: 0;
+    }
+    .skills__cards-block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: stretch;
+    }
+    .skills__card {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    .skills__card:first-child, .skills__card:nth-child(2) {
+        margin-top: 0;
+    }
+    .code__desktop {
+        display: none;
+    }
+    .code__mobile {
+        display: block;
+    }
+    .example__code-block {
+        font-size: 14px;
+    }
+    .projects__card {
+        font-size: 14px;
     }
 }
 @media (max-width: 479px) {
@@ -628,16 +669,8 @@ a:hover {
     .experience__company {
         font-size: 13px;
     }
-    .skills__cards-block {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-items: stretch;
-    }
     .example__task {
         font-size: 12px;
-    }
-    .code__desktop {
-        display: none;
     }
     .projects__card {
         font-size: 13px;
