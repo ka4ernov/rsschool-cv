@@ -4,9 +4,310 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
     <title>Kirill Chernov CV</title>
 </head>
 <body>
-    <h1>Kirill Chernov</h1>
+    <header class="header">
+        <div class="container">
+            <nav class="header__menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#skills" class="menu__link">Skills</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#education" class="menu__link">Education</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#example" class="menu__link">Code</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#projects" class="menu__link">Projects</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#tools" class="menu__link">Tools</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="/files/kirill-chernov-cv.pdf" download class="menu__link">Download CV</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="left-block">
+                <section class="left-block__name name">
+                    <img src="/img/kirillchernov.png" alt="Kirill Chernov" class="name__img">
+                    <h1 class="name__fullname">Kirill Chernov</h1>
+                    <span class="name__position">Junior Frontend Developer</span>
+                    <div class="about">
+                        <span class="about__title">About me</span>
+                        <p class="about__description">Lawyer, that wants to study web development. After 12 years of law practice in real estate, I have decided to dive into the world of programming.</p>
+                    </div>
+                </section>
+                <section class="left-block__contacts contacts">
+                    <h3 class="contacts__title">Contacts</h3>
+                    <div class="contacts__block">
+                        <div class="contacts__icon-block">
+                            <img src="/icons/contacts/phone.png" alt="phone" class="contacts__icon">
+                            <img src="/icons/contacts/mail.png" alt="mail" class="contacts__icon">
+                            <img src="/icons/contacts/website.png" alt="website" class="contacts__icon">
+                            <img src="/icons/contacts/address.png" alt="address" class="contacts__icon">
+                        </div>
+                        <div class="contacts__info-block">
+                            <ul class="contacts__info-list">
+                                <li class="contacts__info-item">
+                                    <span class="card__title">Phone</span>
+                                    <a href="tel:+79184144885" class="phone">+7 918 414 48 85</a>
+                                </li>
+                                <li class="contacts__info-item">
+                                    <span class="card__title">Email</span>
+                                    <a href="mailto:ka4ernov@gmail.com" class="email">ka4ernov@gmail.com</a>
+                                </li>
+                                <li class="contacts__info-item">
+                                    <span class="card__title">Website</span>
+                                    <a href="https://kchernov.ru/" class="website">https://kchernov.ru/</a>
+                                </li>
+                                <li class="contacts__info-item">
+                                    <span class="card__title">Address</span>
+                                    <address class="address">Krasnodar, Russia</address>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="left-block__socials socials">
+                    <h3 class="socials__title">Socials</h3>
+                    <div class="socials__card">
+                        <img src="/icons/socials/discord.png" alt="discord" class="socials__icon">
+                        <div class="socials__info">
+                            <span class="card__title">Discord</span>
+                            <span class="discord">Kirill Chernov (@ka4ernov)</span>
+                        </div>
+                    </div>
+                    <div class="socials__card">
+                        <img src="/icons/socials/telegram.png" alt="telegram" class="socials__icon">
+                        <div class="socials__info">
+                            <span class="card__title">Telegram</span>
+                            <span class="telegram">@ka4ernov</span>
+                        </div>
+                    </div>
+                    <div class="socials__card">
+                        <img src="/icons/socials/whatsapp.png" alt="whatsapp" class="socials__icon">
+                        <div class="socials__info">
+                            <span class="card__title">WhatsApp</span>
+                            <span class="whatsapp">+7 918 414 48 85</span>
+                        </div>
+                    </div>
+                </section>
+                <section class="left-block__languages languages">
+                    <h3 class="languages__title">Languages</h3>
+                    <div class="languages__card">
+                        <img src="/icons/languages/russia.png" alt="russian flag" class="languages__icon">
+                        <div class="languages__info">
+                            <span class="card__title">Russian</span>
+                            <span class="russian">Native</span>
+                        </div>
+                    </div>
+                    <div class="languages__card">
+                        <img src="/icons/languages/united-kingdom.png" alt="english flag" class="languages__icon">
+                        <div class="languages__info">
+                            <span class="card__title">English</span>
+                            <span class="english">A2 (Pre-Intermediate)</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="right-block">
+                <section class="right-block__experience experience">
+                    <h2 class="experience__title">Experience</h2>
+                    <div class="experience__card student">
+                        <div class="experience__main-info">
+                            <div class="experience__icon">
+                                <img src="/icons/experience/freelance-work.png" alt="freelance icon" class="experience__img">
+                            </div>
+                            <div class="experience__company-info">
+                                <div class="experience__position">Student</div>
+                                <div class="experience__company">Freelance</div>
+                            </div>
+                        </div>
+                        <div class="experience__details">
+                            <div class="experience__period present">Present</div>
+                            <div class="experience__address">Krasnodar</div>
+                        </div>
+                    </div>
+                    <div class="experience__card lawyer">
+                        <div class="experience__main-info">
+                            <div class="experience__icon">
+                                <img src="/icons/experience/law-book.png" alt="law icon" class="experience__img">
+                            </div>
+                            <div class="experience__company-info">
+                                <div class="experience__position">Lawyer</div>
+                                <div class="experience__company">Real Estate</div>
+                            </div>
+                        </div>
+                        <div class="experience__details">
+                            <div class="experience__period">Sep 2010 - Jan 2021</div>
+                            <div class="experience__address">Krasnodar, Moscow, Tyumen</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="right-block__skills skills" id="skills">
+                    <h2 class="skills__title">Skills</h2>
+                    <div class="skills__panel soft-skills">
+                        <div class="skills__info">
+                            <img src="/icons/skills/soft-skills.png" alt="soft skills icon" class="theme__icon">
+                            <span class="theme__title">Soft skills</span>
+                        </div>
+                        <ul class="skills__cards-block cards-block">
+                            <li class="skills__card">Self learning</li>
+                            <li class="skills__card">Team work</li>
+                            <li class="skills__card">Adaptability</li>
+                            <li class="skills__card">Self analysis</li>
+                        </ul>
+                    </div>
+                    <div class="skills__panel development">
+                        <div class="skills__info">
+                            <img src="/icons/skills/development.png" alt="development icon" class="theme__icon">
+                            <span class="theme__title">Development</span>
+                        </div>
+                        <ul class="skills__cards-block cards-block">
+                            <li class="skills__card">HTML</li>
+                            <li class="skills__card">CSS</li>
+                            <li class="skills__card">JavaScript</li>
+                            <li class="skills__card">React JS</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="right-block__education education" id="education">
+                    <h2 class="education__title">Education</h2>
+                    <div class="education__cards">
+                        <div class="education__card">
+                            <div class="education__name">
+                                <img src="/icons/education/kubgau.png" alt="kubgau icon" class="education__icon">
+                                <span class="education__platform">Kuban State Agrarian University</span>
+                            </div>
+                            <div class="education__description">
+                                <div class="education__course">Jurisprudence</div>
+                                <div class="education__time">Sep 2005 - Aug 2010</div>
+                            </div>
+                        </div>
+                        <div class="education__card">
+                            <div class="education__name">
+                                <img src="/icons/education/udemy.png" alt="udemy icon" class="education__icon">
+                                <span class="education__platform">Udemy</span>
+                            </div>
+                            <div class="education__description">
+                                <div class="education__course">WEB-developer 2022</div>
+                                <div class="education__time">Jan 2021 - Jan 2022</div>
+                            </div>
+                        </div>
+                        <div class="education__card">
+                            <div class="education__name">
+                                <img src="/icons/education/rss.jpg" alt="rss icon" class="education__icon">
+                                <span class="education__platform">RS School</span>
+                            </div>
+                            <div class="education__description">
+                                <div class="education__course">JS / FRONT-END. Stage 0</div>
+                                <div class="education__time">Present</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="right-block__example example" id="example">
+                    <h2 class="example__title">Code example</h2>
+                    <div class="example__code-block">
+                        <span class="example__task">Complete the solution so that it reverses the string passed into it:</span><br>
+<pre class="code__desktop">
+function solution(str) {
+    let strArray = str.split('').reverse().join('');
+    return strArray;
+};
+</pre>
+<pre class="code__mobile">
+function solution(str) {
+    let strArray = str.split('').
+                   reverse().
+                   join('');
+    return strArray;
+};
+</pre>
+                    </div>
+                </section>
+                <section class="right-block__projects projects" id="projects">
+                    <h2 class="projects__title">Projects</h2>
+                    <div class="projects__cards">
+                        <div class="projects__card">
+                            <img src="/icons/projects/marvel.png" alt="marvel icon" class="projects__icon">
+                            <div class="projects__info">
+                                <span class="projects__name">Marvel App</span>
+                                <div class="projects__description">Educational project, that is using marvel api to show information about characters of marvel comic books</div>
+                                <a href="https://github.com/ka4ernov/marvel" class="projects__link">https://github.com/ka4ernov/marvel</a>
+                            </div>
+                        </div>
+                        <div class="projects__card">
+                            <img src="/icons/projects/tax-calculator.png" alt="tax calculator icon" class="projects__icon">
+                            <div class="projects__info">
+                                <span class="projects__name">Tax calculator</span>
+                                <div class="projects__description">Calculator helps to count taxes when selling real estate</div>
+                                <a href="https://kchernov.ru/nalogovyj-kalkulyator/" class="projects__link">https://kchernov.ru/nalogovyj-kalkulyator/</a>
+                            </div>
+                        </div>
+                        <div class="projects__card">
+                            <img src="/icons/projects/mother-capital.png" alt="mother capital icon" class="projects__icon">
+                            <div class="projects__info">
+                                <span class="projects__name">Mother capital calculator</span>
+                                <div class="projects__description">Calculator helps to count the share of real estate that parents have to give to their children after using mother capital</div>
+                                <a href="https://kchernov.ru/matcapcalc/" class="projects__link">https://kchernov.ru/matcapcalc/</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="right-block__tools tools" id="tools">
+                    <h2 class="tools__title">Tools</h2>
+                    <div class="tools__cards">
+                        <div class="tools__card">
+                            <img src="/icons/tools/vscode.png" alt="vscode" class="tools__icon">
+                            <span class="tools__name">VS Code</span>
+                            <span class="tools__description">Code editor</span>
+                        </div>
+                        <div class="tools__card">
+                            <img src="/icons/tools/figma.png" alt="figma" class="tools__icon">
+                            <span class="tools__name">Figma</span>
+                            <span class="tools__description">UI Design</span>
+                        </div>
+                        <div class="tools__card">
+                            <img src="/icons/tools/github.png" alt="github" class="tools__icon">
+                            <span class="tools__name">Github</span>
+                            <span class="tools__description">Versions control</span>
+                        </div>
+                        <div class="tools__card">
+                            <img src="/icons/tools/photoshop.png" alt="photoshop" class="tools__icon">
+                            <span class="tools__name">Photoshop</span>
+                            <span class="tools__description">UI Design</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__year">
+                <a href="https://ka4ernov.github.io/rsschool-cv/">&copy; Kirill Chernov, 2022</a>
+            </div>
+            <div class="footer__github">
+                <a href="https://github.com/ka4ernov" class="footer__link">GitHub</a>
+            </div>
+            <a href="https://rs.school/js/" class="footer__link">
+                <img src="/icons/footer/rsschool.svg" alt="rss logo" class="footer__logo">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
